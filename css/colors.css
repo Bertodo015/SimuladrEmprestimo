@@ -1,0 +1,10 @@
+:root {
+    --text-color: white;
+    --background: #36541e;
+    --shadow-color: #f1bf98;
+    --button-color: #68cc73;
+
+    --background-mobile: #fff;
+    --text-color-mobile: black;
+    --button-color-mobile-home: #30011E;
+}

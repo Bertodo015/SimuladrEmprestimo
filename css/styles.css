@@ -1,0 +1,85 @@
+/* https://coolors.co/f1bf98-e1f4cb-bacba9-717568-3f4739 
+    https://coolors.co/68cc73-f1bf98-881600-000000-36541e
+    */
+* {
+    margin: 0;
+}
+
+#containerHome {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/dinheiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#containerSimular {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/dinheiro1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+#box {
+    margin: 20px auto;
+    padding: 20px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'regular';
+    text-align: center;
+    background-color: var(--background);
+    box-shadow: 
+        10px 10px 30px var(--shadow-color),
+        -10px -10px 30px var(--shadow-color);
+    color: var(--text-color);
+    border-radius: 10px;
+}
+
+p {
+    margin: 20px auto;
+    font-family: 'Black';
+    font-size: 40px;
+}
+
+label {
+    padding-bottom: 8px;
+    font-size: 25px;
+}
+
+#box input[type='number'] {
+    width: 40%;
+    font-family: 'regular';
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#box input[type='submit'] {
+    background-color: var(--button-color);
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Bold';
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px var(--shadow-color);
+}
+
+.elementBox {
+    margin-bottom: 10px;
+}
+
+#returnButton {
+    margin: 15px;
+    padding: 15px 20px;
+    background-color: var(--button-color);
+    color: var(--text-color);
+    font-family: 'Bold';
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px var(--shadow-color);
+}

@@ -1,0 +1,22 @@
+@media screen and ( max-width: 600px ) {
+
+    #box {
+        box-shadow: none;
+        margin: auto 10px;
+    }
+
+    p{
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    #box input[type='number'] {
+        width: 70%;
+    }
+
+    #box input[type='submit'] {
+        padding: 15px 25px;
+        font-size: 15px;
+    }
+
+}
